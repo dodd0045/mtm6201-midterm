@@ -54,7 +54,7 @@ body{
 
 .bg-img {
 	/* The image used */
-	background-image: url("./images/backgroundbread.JPG");
+	background-image: url("/images/backgroundbread.jpg");
 	min-height: 500px;
 	width: 100%;
   
