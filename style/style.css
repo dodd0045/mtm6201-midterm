@@ -103,6 +103,9 @@ body{
 .sections h2 {
 	font-family: 'Manrope', sans-serif;
 }
+
+
+/* had a hard time placing everything right, need to study more on the correct way to make elements and images responsive  */
   /* ------------------------------------------------- */
  /* --------------------- SECTION 1 ------------------- */
 
@@ -198,11 +201,11 @@ body{
   }
 
 .home3{
-	  max-width: 500px;
-	  /* padding-left: 300px; */
-	  /* padding-bottom: 7em;  */
+	  max-width: 500px;	 
   }
 
+
+  /*  had a really hard time figuring out how to do  this one  */
 .section-3 img{
 	box-shadow: 0 -9px 0px 0px white, 0 -9px 0px 0px white, 70px 0px 0px -20px #E5E4E0, -70px 0 0px -20px #E5E4E0;
   }

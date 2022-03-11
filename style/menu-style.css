@@ -106,6 +106,8 @@ nav a{
 /* MENU GRID============================================ */
 
 
+/* I found flex box the easiest to use for this midterm, I need to spend more time learning how to use css grid  */
+
 /* bread 1 ========================================== */
 .item-1{
 	display: flex;
