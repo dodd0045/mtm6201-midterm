@@ -1,7 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 /* --------------------- CSS RESET ------------------ */
 html, body, div, span, applet, object, iframe,
@@ -49,124 +45,231 @@ table {
 }
 /* --------------------- CSS RESET ------------------ */
 
+
+body{
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .bg-img {
 	/* The image used */
 	background-image: url("/images/backgroundbread.JPG");
-	min-height: 700px;
+	min-height: 500px;
+	width: 100%;
   
 	/* Center and scale the image nicely */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	
-	overflow: auto;
-  
-	/* Needed to position the navbar */
-	position: relative;
+	overflow: auto;	
   }
 
   /* Position the navbar container inside the image */
 .container {
-	
 	margin: 0px;
-	width: auto;
-	
+	width: auto;	
   }
   
   /* The navbar */
-  .topnav {
-	  position: sticky;
+.topnav {
 	  right: 0;
-	  overflow: hidden;
-	  padding-top: 80px;
-	  padding-right: 100px;
+	  padding-top: 70px;
+	  padding-right: 70px;
 	  float: right;
-	  
-	
-
   }
   
   /* Navbar links */
-  .topnav a {
+.topnav a {
 	color: #000000;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 30px;
-	
-
+	font-size: 20px;
   }
   
-  .topnav a:hover {
-	
+.topnav a:hover {
 	color: rgb(246, 213, 22);
   }
 
-  .logo{
+.logo{
 	display: flex;
 	float: left;
 	height: 200px;
 	padding: 30px;
 	position: inherit;
-	
   }
 
-  .home2{
-	 position:absolute;
-	 bottom: -825px;
-     left:0;
-     right:0;
-	 display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 1300px;
-  }
-
-  .color-container{
-	  background-color: #E5E4E0;
-	  width: 100%;
-	  height: 800px; 
-	  
-  }
-
-  .section-1{
-	  
-	  margin: auto;
-	  width: 75%;
-  }
-
-  .section-2{
-	  
-
-  }
-
-  h1{
+.sections h2 {
 	font-family: 'Manrope', sans-serif;
-	font-size: 75px;
+}
+  /* ------------------------------------------------- */
+ /* --------------------- SECTION 1 ------------------- */
+
+
+.section-1{
+	margin: auto;
+	width: 75%;
+}
+
+.section-1 p{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px ;
+	text-align: center;
+	color: rgb(107, 107, 107);
+	line-height: 1.3em;
+	padding-bottom: 6em;
+}
+
+.section-1 h2{
+	font-size: 50px;
 	text-align: center;
 	padding-top: 1em ;
 	padding-bottom: .5em;
   }
 
-  p{
-	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	  font-size: 25px ;
-	  text-align: center;
-	  color: rgb(107, 107, 107);
-	  line-height: 1.3em;
+ /* --------------------- SECTION 1 -------------------- */
+  /* ------------------------------------------------- */
+  
+
+
+    /* ------------------------------------------------- */
+  /* ---------------------- SECTION 2 -------------------- */
+.section-2{
+	background-color:rgba(222,222,222,0.6);
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+.section-2 img{
+	width: 900px;
+  }
+
+.home2{
+	left:0;
+	right:0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+ }
+
+  
+
+  /* --------------------- SECTION 2 ---------------------- */
+    /* ------------------------------------------------- */
+   
+ 
+
+
+
+ 
+  
+ /* --------------------- SECTION 3 ---------------------- */
+.section-3{
+	  display: flex;
+	  padding-top: 5em;
+	  padding-left: 3em;
 	  padding-bottom: 6em;
   }
 
-  .section-3{
-	  display: grid;
-	  grid-template-columns: 1fr 1fr;
-	  padding-top: 10em;
-	 
+.section-3 p {
+	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	  color: rgb(107, 107, 107);
+	  font-size: 20PX;
+	  line-height: 1.3em;
+	  width: 80%;
+	  
   }
 
-  .home3{
-	  max-width: 500px;
-	  padding-left: 200px;
-	  padding-bottom: 5em;
+.section-3 h2{
+	font-family: 'Manrope', sans-serif;
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-top: 50px;
   }
+
+.section-3-content{
+	  display: flex;
+	  flex-direction: column;
+	  padding-left: 8em;
+	  padding-right: 10px;
+	  padding-top: 5em;
+	
+  }
+
+.home3{
+	  max-width: 500px;
+	  /* padding-left: 300px; */
+	  /* padding-bottom: 7em;  */
+  }
+
+.section-3 img{
+	box-shadow: 0 -9px 0px 0px white, 0 -9px 0px 0px white, 70px 0px 0px -20px #E5E4E0, -70px 0 0px -20px #E5E4E0;
+  }
+ /* --------------------- SECTION 3 ---------------------- */
+
+
+.footer-container a{
+	  color: #D8BB5A;
+	  text-decoration: none;
+	  font-family: 'Manrope', sans-serif; 
+	  
+	  
+  }
+
+.footer-container{
+	  background-color: #F5F5F5;
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+  }
+
+.footer-container{
+	  display: flex;
+	  margin: 0;
+	  justify-content: space-between;
+	  padding-left: 5rem;
+  }
+
+.footer-heading {
+	  display: flex;
+	  flex-direction: column;
+	  margin-right: 4rem;
+	  line-height: 30px;
+  }
+
+.footer-search p {
+	color: #D8BB5A;
+	text-decoration: none;
+	margin-top: .9rem;
+	padding-right: 10px;
+	padding-left: 10px;
+  }
+
+.footer-search{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	flex-direction: row;
+	height: 30px;
+	font-family: 'Manrope', sans-serif; 
+	color: #D8BB5A;
+  }
+
+.copyright{
+	  display: flex;
+	  flex-direction: column;
+  }
+
+.search-box{
+	  border: #D8BB5A;
+  }
+
+.ok-button{
+	  border: none;
+	  text-decoration: none;
+	  background-color: #D8BB5A;
+	  color: #ffffff;
+  }
+
+  
  

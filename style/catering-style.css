@@ -1,0 +1,307 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* --------------------- CSS RESET ------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* --------------------- CSS RESET ------------------ */
+
+
+
+
+body{
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*  HEADER ========================================================== */
+
+/* spaces out nav logo and li items & centers nav  */
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	padding-top: 18px;
+	padding-left: 48px;
+	width: 370px;
+}
+
+nav a{
+	color: #000000;
+}
+
+/* makes the nav a row with flex */
+.navbar ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.navbar{
+    color: #000000;
+	padding: 14px 50px;
+	font-size: 20px;
+	
+}
+
+.nav-list li a{
+    text-decoration: none;
+	padding: 20px;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+.nav-list a:hover {
+	color: rgb(246, 213, 22);
+  }
+
+
+/* ======================MAIN=================================== */
+
+/* seection 1 catering ===================================================================== */
+.cat-1{
+margin: 20px;
+margin-left: 60px;
+padding: 60px; 
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.cat-1 img{
+    width: 20%;
+    box-shadow: 0 -9px 0px 0px white, 0 -9px 0px 0px white, 40px 0 0px -20px #E5E4E0, -40px 0 0px -20px #E5E4E0;
+}
+
+
+.section-1{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 3em;
+    background-color: #dddcdc50;
+}
+
+.section-1 h2{
+    font-family: 'Manrope', sans-serif;
+    padding-bottom: 1em;
+    color: #000000;
+}
+
+.section-1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
+    line-height: 1.5em;
+}
+
+/* seection 2 catering ===================================================================== */
+    
+
+.section-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 10em;
+}
+
+.content{
+    margin-left: 150px;
+    margin-right: 300px;
+    background-color: #dddcdc50 ;
+    padding: 3em;
+}
+
+.content h2{
+    font-family: 'Manrope', sans-serif;
+    padding-bottom: 1em;
+    color: #000000;
+}
+
+.content p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
+    line-height: 1.5em;
+}
+
+.block-2{
+    padding-bottom: 7em;
+}
+
+.cat-2 img{
+    width: 20%;
+    box-shadow: 0 -9px 0px 0px white, 0 -9px 0px 0px white, 40px 0 0px -20px #E5E4E0, -40px 0 0px -20px #E5E4E0;
+}
+
+
+/* PAY SECTION ============================================ */
+
+.pay-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 5em;
+}
+
+.pay-block{
+    margin: .5em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 300px;
+    border: #cfcfcf63 solid 2px;
+    line-height: 1.5em;
+}
+
+.pay-block h2{
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.pay-block p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    width: 80%;
+}
+
+.pay-block1{
+    background-color:#dddcdc50  ;
+    text-align: center; 
+}
+.pay-block2{
+    background-color:#dddcdc50  ;
+    text-align: center; 
+}
+.pay-block3{
+    background-color:#dddcdc50  ;
+    text-align: center; 
+}
+.pay-block4{
+    background-color:#dddcdc50  ;
+    text-align: center;   
+}
+
+    
+
+
+
+
+
+
+
+
+/* --------------------- FOOTER ---------------------- */
+
+  .footer-container a{
+	  color: #D8BB5A;
+	  text-decoration: none;
+	  font-family: 'Manrope', sans-serif;   
+  }
+
+.footer-container{
+	  background-color: #F5F5F5;
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+  }
+
+.footer-container{
+	  display: flex;
+	  margin: 0;
+	  justify-content: space-between;
+	  padding-left: 5rem;
+  }
+
+.footer-heading {
+	  display: flex;
+	  flex-direction: column;
+	  margin-right: 4rem;
+	  line-height: 30px;
+  }
+
+
+
+.footer-search p {
+	color: #D8BB5A;
+	text-decoration: none;
+	margin-top: .9rem;
+	padding-right: 10px;
+	padding-left: 10px;
+
+  }
+
+.footer-search{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	flex-direction: row;
+	height: 30px;
+	font-family: 'Manrope', sans-serif; 
+	color: #D8BB5A;
+  }
+
+.copyright{
+	  display: flex;
+	  flex-direction: column; 
+  }
+
+.search-box{
+	  border: #D8BB5A;
+  }
+
+.ok-button{
+	  border: none;
+	  text-decoration: none;
+	  background-color: #D8BB5A;
+	  color: #ffffff;
+  }
+
+  
+ /* --------------------- FOOTER ----------------------- */
